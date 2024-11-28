@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ABOUT US</title>
+<style>
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+   
+}
+
+/* Styling for all h2 headers */
+h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Add spacing between the sections */
+br {
+    margin-bottom: 20px;
+}
+
+/* Styling the individual points */
+h2:before {
+    content: counter(section) ". ";
+    counter-increment: section;
+    color: #3498db;
+    font-weight: bold;
+    text-align:left;
+}
+
+/* Reset the counter for the ordered list */
+body {
+    counter-reset: section;
+}
+
+/* General styles for paragraphs */
+p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* For making the background of the container box */
+.container {
+    background: rgba(255, 255, 255, 0.0);
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Specific heading at the top */
+h1 {
+    text-align: center;
+    color: #34495e;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+/* Adding hover effects for headers */
+h2:hover {
+    color: #019EEC;
+}
+p:hover{
+	color: #019EEC;
+}
+h3:hover {
+    color: #019EEC;
+}
+/* Navigation Bar */
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #019EEC;
+    padding: 10px 0;
+}
+
+.nav a {
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #FFB600;
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+
+<h1>OVERVIEW</h1>
+<img src="https://canarabank.com/Assets/images/founder%20111020230012.jpg" alt=Founderimage width="250px" height="250px">
+<h2>HISTORY:A good bank is not only the financial heart of the community, but also one with an obligation of helping in every possible manner to improve the economic conditions of the common people.
+								               <pre>                                                               Late Sri Ammembal Subbarao Pai </pre>
+</h2>
+<br>
+<h2>Headquarters: Benglore Krnataka, India.</h2>
+<br>
+<h2>Founder:Late Sri Ammembal Subbarao Pai</h2>
+<br>
+<h2>Founding Principles:
+<ul>
+	<li>To remove Superstition and ignorance.</li>
+	<li>To spread education among all to sub-serve the first principle.</li>
+	<li>To inculcate the habit of thrift and savings.</li>
+	<li>To transform the financial institution not only as the financial heart of the community but the social heart as well.</li>
+	<li>To assist the needy.</li>
+	<li>To work with sense of service and dedication.</li>
+	<li>To develop a concern for fellow human being and sensitivity to the surroundings with a view to make changes/remove hardships and sufferings.</li>
+</ul>
+</h2>
+<br>
+<h2>A BRIEF PROFILE OF THE BANK:
+<h3>Widely known for customer centricity, Canara Bank was founded by Shri Ammembal Subba Rao Pai, a great visionary and philanthropist, in July 1906, at Mangalore, then a small port town in Karnataka. The Bank has gone through the various phases of its growth trajectory over hundred years of its existence. Growth of Canara Bank was phenomenal, especially after nationalization in the year 1969, attaining the status of a national level player in terms of geographical reach and clientele segments. Eighties was characterized by business diversification for the Bank. In June 2006, the Bank completed a century of operation in the Indian banking industry. The eventful journey of the Bank has been characterized by several memorable milestones. Today, Canara Bank occupies a premier position in the comity of Indian banks.
+<ul>
+Canara Bank has several firsts to its credit. These include:
+<li>Launching of Inter-City ATM Network</li>
+<li>Obtaining ISO Certification for a Branch</li>
+<li>Articulation of Good Banking – Banks Citizen Charter</li>
+<li>Commissioning of Exclusive Mahila Banking Branch</li>
+<li>Launching of Exclusive Subsidiary for IT Consultancy</li>
+<li>Issuing credit card for farmers</li>
+<li>Providing Agricultural Consultancy Services</li>
+</ul>
+Over the years, the Bank has been scaling up its market position to emerge as a major Financial Conglomerate with as many as thirteen subsidiaries/sponsored institutions in India and abroad. As at June 2024, Canara Bank services over 11.42 crore customers through a network of 9,627 branches and 12,256 ATMs/Recycler spread across all Indian states and Union Territories.
+
+Not just in commercial banking, the Bank has also carved a distinctive mark, in various corporate social responsibilities, namely, serving national priorities, promoting rural development, enhancing rural self-employment through several training institutes and spearheading financial inclusion objective. Promoting an inclusive growth strategy, which has been formed as the basic plank of national policy agenda today, is in fact deeply rooted in the Banks founding principles. "A good bank is not only the financial heart of the community, but also one with an obligation of helping in every possible manner to improve the economic conditions of the common people". These insightful words of our founder continue to resonate even today in serving the society with a purpose. The growth story of Canara Bank in its first century was due, among others, to the continued patronage of its valued customers, stakeholders, committed staff and uncanny leadership ability demonstrated by its leaders at the helm of affairs. We strongly believe that this century is going to be equally rewarding and eventful not only in service of the nation but also in helping the Bank emerge as the “Best Bank to Bank with” by pursuing industry benchmarks in profitability, operational efficiency, asset quality, risk management and digital innovation.
+</h3>
+
+</h2>
+<br>
+<h2>VISION: To emerge as the Best Bank to Bank with by pursuing industry benchmarks in profitability, operational efficiency, asset quality, risk management and digital innovation.</h2>
+<br>
+<h2>MISSION: To provide State-of-the-Art Banking solutions, leveraging technology, aiding Ease of Doing business and enhancing value for all stakeholders through inclusive growth.</h2>
+</div><br>
+
+<!-- Navigation Bar -->
+    <div class="nav">
+         <a href="Directors.html">Board of Directors</a> 
+         <a href="ChiefVigilanceOfficer.html">Chief Vigilance Officer</a>
+        
+    </div>
+
+</body>
+</html>

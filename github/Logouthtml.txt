@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout - CANARA Bank</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    /* Header Styling */
+    .header {
+        background-color:  #019EEC;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .header img {
+        width: 100px;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .header h1 {
+        font-size: 36px;
+        margin: 0;
+    }
+
+    /* Main Section */
+    .main {
+        background-color: white;
+        margin: 80px auto;
+        padding: 20px;
+        min-height: 30vh;
+        border-radius: 8px;
+        max-width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .main h2 {
+        color: #333;
+    }
+
+    .main p {
+        margin: 20px 0;
+        font-size: 18px;
+    }
+
+    /* Logout Button */
+    .main input[type="submit"] {
+        width: 150px;
+        background-color: #d9534f;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    /* Footer Section */
+    .footer {
+        background-color: #1aa9d8;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <img src="canara-bank-logo.png" alt="CANARA Bank Logo">
+        <h1>CANARA Bank</h1>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="main">
+        <h2>Logout</h2>
+        <p>Are you sure you want to logout?</p>
+        
+        <!-- Logout form to call the Logout servlet -->
+        <form action="Logout" method="post">
+            <input type="submit" value="Logout">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 CANARA Bank. All rights reserved.</p>
+    </div>
+</body>
+</html>

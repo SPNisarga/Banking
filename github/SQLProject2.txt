@@ -1,0 +1,52 @@
+CREATE DATABASE HOSPITAL;
+USE HOSPITAL;
+CREATE TABLE Patient (
+    P_ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Age INT,
+    Gender VARCHAR(10),
+    Address VARCHAR(100),
+    Mob_No VARCHAR(15),
+    DOB DATE
+);
+
+CREATE TABLE Doctor (
+    E_ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Qualification VARCHAR(50),
+    Dept VARCHAR(50),
+    Salary DOUBLE,
+    Mob_No VARCHAR(15)
+);
+
+
+
+CREATE TABLE Receptionist (
+    E_ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Salary DOUBLE,
+    Mob_No VARCHAR(15)
+);
+
+CREATE TABLE Bills (
+    B_ID INT PRIMARY KEY,
+    Amount DOUBLE,
+    P_ID INT,
+    FOREIGN KEY (P_ID) REFERENCES Patient(P_ID)
+);
+
+CREATE TABLE Rooms (
+    R_ID INT PRIMARY KEY,
+    Capacity INT,
+    Availability BOOLEAN
+);
+
+CREATE TABLE Test_Report (
+    T_ID INT PRIMARY KEY,
+    Test_Type VARCHAR(50),
+    Result VARCHAR(100),
+    P_ID INT,
+    FOREIGN KEY (P_ID) REFERENCES Patient(P_ID)
+);
+SHOW TABLES;
+select * from Patient;

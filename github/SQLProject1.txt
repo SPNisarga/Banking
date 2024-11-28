@@ -1,0 +1,19 @@
+create database employee;
+use employee;
+select emp_id,first_name,last_name,gender,dept from emp_record_table;
+select emp_id,first_name,last_name,gender,dept,emp_rating from emp_record_table where emp_rating < 2;
+select emp_id,first_name,last_name,gender,dept,emp_rating from emp_record_table where emp_rating > 4;
+select emp_id,first_name,last_name,gender,dept,emp_rating from emp_record_table where emp_rating between 2 and 4;
+select  concat(first_name,last_name)as name from emp_record_table where dept='finance';
+select emp_id,first_name,last_name,gender,dept from emp_record_table where dept='healthcare' union 
+select emp_id,first_name,last_name,gender,dept from emp_record_table where dept='finance';
+select emp_id,first_name,last_name, role, dept, max(emp_rating) as avg_rating from emp_record_table 
+group by dept,emp_id,first_name,last_name,role order by dept, emp_id;
+select role, min(salary) as min_salary, max(salary) as max_salary from emp_record_table group by role;
+select emp_id,first_name,last_name,exp, rank() over (order by exp desc) as exp_rank from emp_record_table;
+create view high_salary_employee_view as select emp_id,first_name,last_name,salary,country from emp_record_table where salary > 6000;
+select * from high_salary_employee_view;
+select emp_id,first_name,last_name,exp from emp_record_table where exp > 10;
+select emp_id,first_name,last_name,exp from emp_record_table where exp > (select 10);
+select emp_id,first_name,last_name,salary,emp_rating,0.05 * salary * emp_rating as bonus from emp_record_table;
+select continent,country, avg(salary) as average_salary from emp_record_table group by continent,country;

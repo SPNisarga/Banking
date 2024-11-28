@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ABOUT US</title>
+</head>
+<style>
+.n{
+	float:left;
+    margin-right:20px;
+    width:150px;
+    overflow:hidden;
+    }
+ </style>
+<body>
+	<h2>Chief Vigilance Officer</h2>
+	<h5>SHRI NABIN KUMAR DASH<br>
+		CHIEF VIGILANCE OFFICER<br>
+		CANARA BANK
+	</h5>
+	
+	<img src="https://canarabank.com/Assets/images/Sri_Nabin_Kumar_Dash123.jpg" class="n" alt="Chief Vigilance Officer">
+	<p>Shri Nabin Kumar Dash, born on 18th May, 1968 a Post Graduate in Physics from Sambalpur University, Odisha, is also a Certified Associate Member of Indian Institute of Bankers (CAIIB) and he also holds various certifications in Treasury and Risk Management, International Banking from Indian Institute of Banking and Finance(IIBF).
+	Shri Dash, started his journey in United Bank of India as Probationary Officer in the year 1992 and has served the bank for thirty years in various key areas as Branch Head, Forex Dealer, Circle Head, General Manager of Risk Management and Planning & Development. After amalgamation of United Bank of India & Oriental Bank of Commerce into Punjab National Bank (PNB), he became CGM and headed Kolkata Zone, one of the largest Zones of PNB. He was also convener of SLBC for the State of West Bengal.
+	The successful amalgamation of United Bank of India & Oriental Bank of Commerce into Punjab National Bank, Kolkata Chapter was steered under his supervision and control.
+	He was also one of Board of Directors of Assam Gramin Vikash Bank and Manipur Gramin Bank, two sponsored RRBs of Punjab National Bank.
+	Shri Dash’s experience and contribution is spread across multiple domains of Branch Banking, Large Corporate Credit, MSME, Treasury, Forex, Risk Management, Amalgamation Management, Planning and Development.
+	Shri Dash has attended several training programmes conducted by various prestigious institutions such as ASCI, IDRBT Hyderabad, BTC RBI Mumbai, NIBM Pune, CAFRAL and he has also attended FEDAI annual conference held at Belgium.
+	Shri Dash has been appointed as Chief Vigilance Officer (CVO) of Canara Bank by Ministry of Finance, GOI vide notification dated 22.11.2022.
+	Shri Dash has taken charge as CVO of our Canara Bank on 03.12.2022.
+    </p>
+    <div>
+    <p>
+    112, JC Road, 3rd Floor | Vigilance Wing<br>
+	Head Office | Bengaluru-560002<br>
+	Email -  vigilancewing@canarabank.com | Phone -  080-22127266<br>
+	Brochure on PIDPI, 2004
+    </p>
+    </div>
+</body>
+</html>
